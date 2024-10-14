@@ -8,13 +8,13 @@ Option 1 (not reliant on ailur.dev)
 - Download the latest continuous release to "bootstrap" the site
 - Start a local webserver and run it at port 80
 - Open your Wordpress instance **on your local machine** to import the XML
-- Use a plugin like Auto Upload Images to move the bootstrapped images to your Wordpress instance
+- (may not be needed depending on your wordpress version) Use a plugin like Auto Upload Images to move the bootstrapped images to your Wordpress instance
 
 Option 2 (requires an active internet connection)
 - Run `chmod +x ./search-and-replace.sh`
 - Run `./search-and-replace.sh`
 - Import the XML in any Wordpress instance
-- Use a plugin like Auto Upload Images to move the bootstrapped images to your Wordpress instance
+- (may not be needed depending on your wordpress version) Use a plugin like Auto Upload Images to move the bootstrapped images to your Wordpress instance
 
 
 This roundabout method is needed because the Wordpress XML file does **not** bundle images.
