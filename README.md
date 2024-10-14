@@ -7,13 +7,15 @@ To use, you can do one of two things:
 Option 1 (not reliant on ailur.dev)
 - Download the latest continuous release to "bootstrap" the site
 - Start a local webserver and run it at port 80
-- Open your Wordpress instance **on your local machine** to import the XML
+- Open your Wordpress instance **on your local machine** and install the theme (Idea Flow)[https://en-gb.wordpress.org/themes/idea-flow/]
+- Import the XML on the instance
 - (may not be needed depending on your wordpress version) Use a plugin like Auto Upload Images to move the bootstrapped images to your Wordpress instance
 
 Option 2 (requires an active internet connection)
 - Run `chmod +x ./search-and-replace.sh`
 - Run `./search-and-replace.sh`
-- Import the XML in any Wordpress instance
+- Open your Wordpress instance and install the theme (Idea Flow)[https://en-gb.wordpress.org/themes/idea-flow/]
+- Import the XML on the instance
 - (may not be needed depending on your wordpress version) Use a plugin like Auto Upload Images to move the bootstrapped images to your Wordpress instance
 
 
