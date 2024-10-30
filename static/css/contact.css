@@ -1,0 +1,75 @@
+@import "common.css";
+
+body {
+    text-align: center;
+}
+
+.blockContainer h1 {
+    font-size: 60px;
+}
+
+.blockContainer .contactMethods {
+    display: flex;
+    justify-content: center;
+}
+
+.blockContainer .contactMethods img {
+    height: 48px;
+}
+
+.blockContainer .contactMethods div {
+    background-color: var(--foreground-1);
+    width: 320px;
+    padding: 20px;
+}
+
+.blockContainer .contactMethods .email {
+    margin-right: 50px;
+}
+
+.blockContainer .contactMethods .discord {
+    margin-left: 50px;
+}
+
+.blockContainer .peopleDiv {
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: var(--foreground-1);
+}
+
+.blockContainer .peopleDiv .subtext {
+    margin: 70px 0 0 0;
+}
+
+.blockContainer .peopleDiv h1 {
+    margin: 0;
+}
+
+.blockContainer .peopleDiv .personContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.blockContainer .peopleDiv .person {
+    margin: 20px;
+}
+
+.blockContainer .peopleDiv .person .profile {
+    height: 256px;
+    width: 256px;
+    border-radius: 25px;
+}
+
+.blockContainer .peopleDiv .person img {
+    height: 25px;
+    width: 25px;
+}
+
+.blockContainer .peopleDiv .person p {
+    max-width: 500px;
+}
+
+.blockContainer .peopleDiv .person .ctaLol {
+    object-fit: cover;
+    border-radius: 100%;
+}

@@ -1,0 +1,168 @@
+@import "common.css";
+
+.background {
+    filter: brightness(50%);
+    height: 350px;
+    background-position: bottom;
+    background-image: url("/static/img/background.png");
+}
+
+.welcome {
+    height: 350px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.welcome h1 {
+    font-size: clamp(20px, 60px, 12vw);
+    margin: 65px 0 0 0;
+}
+
+.welcome p {
+    font-size: clamp(5px, 20px, 3.3vw);
+    width: 29em;
+    margin: 10px auto 0 auto;
+}
+
+.welcome a {
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.welcome .buttons {
+    width: 345px;
+    margin: 50px auto 0 auto;
+    display: flex;
+}
+
+.services, .fulgens, .partners, .callToAction {
+    display: flex;
+    background-color: var(--background);
+    flex-direction: column;
+    text-align: center;
+}
+
+.services h1 {
+    font-size: 40px;
+    margin: 20px 0 0 0;
+}
+
+.services p {
+    margin: 10px 0 35px 0;
+    font-size: 18px;
+}
+
+.services .serviceGrid {
+    display: flex;
+    margin: 0 30px 0 30px;
+    justify-content: center;
+}
+
+.services .serviceGrid div {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--foreground-1);
+    padding: 40px;
+    border-radius: 20px;
+    width: 340px;
+    margin: 0 10px 20px;
+}
+
+.services .serviceGrid h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.services .serviceGrid img {
+    height: 48px;
+}
+
+.services .serviceGrid p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.services .serviceGrid .button {
+    margin-top: auto;
+}
+
+.fulgens {
+    padding: 20px 15vw 50px 15vw;
+    background-color: var(--foreground-1);
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.fulgens div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.fulgens img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+    margin: 0 0 0 20%;
+}
+
+.fulgens div .buttons {
+    margin-top: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.fulgens div .button {
+    margin: 0 5px 0 5px;
+}
+
+.fulgens div .buttons .unimportant {
+    border: 1px solid var(--foreground-2);
+}
+
+.callToAction .image {
+    background-image: url("/static/img/callToAction.jpg");
+    height: 800px;
+}
+
+.callToAction {
+    height: 800px;
+    background: none;
+    justify-content: center;
+}
+
+.callToAction .content {
+    height: 400px;
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--background);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.callToAction .content .subtext {
+    margin-top: 45px;
+    font-size: 18px;
+}
+
+.callToAction .content h1 {
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.callToAction .content p {
+    font-size: 18px;
+    margin: 0 80px 35px 80px;
+}
+
+.callToAction .content a {
+    margin: auto auto 40px auto;
+    width: fit-content;
+}

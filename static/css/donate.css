@@ -1,0 +1,23 @@
+@import "common.css";
+
+body {
+    text-align: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.blockContainer .center p {
+    max-width: 80vw;
+}
+
+.blockContainer p {
+    font-size: 18px;
+}
+
+.blockContainer h1 {
+    font-size: 50px;
+    margin: 0;
+}

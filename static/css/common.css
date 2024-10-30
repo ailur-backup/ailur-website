@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url("/static/fonts/Figtree.woff2") format("woff2");
+    font-style: normal;
+}
+
+:root {
+    --theme-color: #1c71d8;
+    --hover-theme-color: #4990e7;
+    --hover-unimportant-theme-color: #dbdbdb;
+    --background: #fff;
+    --text-color: #000;
+    --gradient: #F8FAFC;
+    --foreground-1: #EBEBEB;
+    --foreground-2: #DCDCDC;
+}
+
+h1, h2 {
+    font-weight: 600;
+}
+
+.button {
+    background-color: var(--theme-color);
+    color: white;
+    padding: 0.75em 1.25em;
+    border: none;
+    border-radius: 25em;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+    text-decoration: none;
+    background-color: var(--hover-theme-color);
+    transition: all 0.3s ease 0s;
+}
+
+.unimportant {
+    background-color: var(--foreground-1);
+    color: #000;
+    font-weight: 500;
+}
+
+.unimportant:hover {
+    background-color: var(--hover-unimportant-theme-color);
+}
+
+.subtext {
+    color: var(--theme-color);
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 17px;
+    left: 0;
+    right: 0;
+}
+
+
+body {
+    font-family: "Figtree", sans-serif;
+    margin: 0;
+}
+
+nav {
+    background-color: var(--background);
+    padding: 20px 30px 20px 30px;
+}
+
+nav .bar {
+    background: linear-gradient(135deg, var(--gradient) 0%,var(--foreground-2) 100%);
+    border-radius: 22px;
+    display: flex;
+    padding: 20px;
+}
+
+nav img {
+    max-height: 20px;
+    scale: 2;
+}
+
+nav div .links {
+    margin: 0 auto 0 auto;
+    display: flex;
+}
+
+nav a {
+    margin: 0 20px 0 20px;
+    font-weight: 600;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.blockContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleBlock {
+    background-color: var(--foreground-1);
+    margin: 0 30px 0 30px;
+    padding: 25px 0 25px 25px;
+    font-size: 18px;
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.subtitle {
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+footer {
+    text-align: left;
+    background-color: var(--background);
+    padding: 80px 50px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 17px;
+}
+
+footer a {
+    margin: 0 auto 5px 0;
+}
+
+footer img {
+    margin: 0 auto 10px 0;
+    max-height: 100px;
+}
+
+footer .title {
+    font-weight: 600;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+footer .disclaimer {
+    margin-top: 20px;
+    filter: invert(100%);
+    background-color: var(--background);
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    text-align: center;
+}

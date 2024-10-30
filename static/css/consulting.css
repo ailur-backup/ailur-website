@@ -1,0 +1,26 @@
+@import "common.css";
+
+body {
+    text-align: center;
+}
+
+.contact p, .contact img, .contact h2 {
+    filter: invert(100%);
+}
+
+.contact .buttons {
+    margin: 10px;
+}
+
+.contact img {
+    max-height: 48px;
+}
+
+.contact {
+    background-color: var(--theme-color);
+    border-radius: 25px;
+    margin: 0 15vw 0 15vw;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}

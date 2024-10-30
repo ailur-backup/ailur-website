@@ -1,0 +1,25 @@
+@import "common.css";
+
+.appContainer {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.appContainer div {
+    background-color: var(--foreground-1);
+    margin: 20px;
+    padding: 0 0 35px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.appContainer div img {
+    border-radius: 1em;
+    width: 256px;
+    height: 256px;
+    scale: 0.75;
+}
