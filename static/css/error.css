@@ -1,0 +1,15 @@
+@import "common.css";
+
+body {
+    text-align: center;
+}
+
+.blockContainer h1 {
+    font-size: 60px;
+    margin: 0 0 0 0;
+}
+
+.blockContainer a {
+    font-size: 18px;
+    margin-top: 20px;
+}
