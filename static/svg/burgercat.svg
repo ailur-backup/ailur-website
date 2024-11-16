@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="440"
+   height="440"
+   viewBox="0 0 440 440"
+   fill="none"
+   version="1.1"
+   id="svg17"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <rect
+     width="440"
+     height="440"
+     fill="#ffffff"
+     id="rect1"
+     x="0"
+     y="0" />
+  <g
+     id="g1"
+     transform="matrix(0.92818485,-0.70710678,0.92818485,0.70710678,-180.02676,235.56003)">
+    <path
+       d="m 205.07738,13.768058 c 11.8266,-11.8265946 31.57849,-11.2494286 44.11705,1.289133 L 415.92028,181.78305 c 12.53849,12.53849 13.11573,32.29045 1.28914,44.11705 L 391.78034,251.32918 179.6483,39.197138 Z"
+       fill="#71ccb9"
+       id="path1"
+       style="fill:#ffe7e7;fill-opacity:1;stroke-width:0.974441" />
+    <rect
+       x="154.74709"
+       y="-99.313988"
+       width="300"
+       height="66.246056"
+       fill="#5eb5c7"
+       id="rect2"
+       transform="rotate(45)"
+       style="fill:#ffd5d5;stroke-width:0.974441" />
+    <rect
+       x="154.74709"
+       y="-33.067913"
+       width="300"
+       height="66.246056"
+       fill="#54a9ce"
+       id="rect3"
+       transform="rotate(45)"
+       style="fill:#ffaaaa;fill-opacity:1;stroke-width:0.974441" />
+    <path
+       d="M 85.962236,132.88321 298.09427,345.01525 247.9053,395.20422 c -11.82653,11.82652 -31.57857,11.24935 -44.11705,-1.28914 L 37.062399,227.18923 C 24.523837,214.65067 23.946739,194.89871 35.773267,183.07218 Z"
+       fill="#3786e3"
+       id="path3"
+       style="fill:#ff5555;stroke-width:0.974441" />
+    <rect
+       x="154.74709"
+       y="33.178135"
+       width="300"
+       height="66.246056"
+       fill="#499cd5"
+       id="rect4"
+       transform="rotate(45)"
+       style="fill:#ff8080;stroke-width:0.974441" />
+  </g>
+  <g
+     filter="url(#filter0_d_3_63)"
+     id="g5">
+    <rect
+       x="247"
+       y="144"
+       width="152"
+       height="152"
+       rx="32"
+       fill="#f8fcfc"
+       id="rect5" />
+    <text
+       xml:space="preserve"
+       style="font-weight:800;font-size:134.847px;line-height:0;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:#e54a4a;fill-opacity:1;stroke:none;stroke-width:1.87287;paint-order:stroke fill markers"
+       x="244.49826"
+       y="296.63989"
+       id="text2"
+       transform="scale(1.1287435,0.88594089)"><tspan
+         id="tspan2"
+         x="244.49826"
+         y="296.63989"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Light';fill:#ff5555;fill-opacity:1;stroke:none;stroke-width:1.87287">C</tspan></text>
+  </g>
+  <defs
+     id="defs17">
+    <filter
+       id="filter0_d_3_63"
+       x="235"
+       y="144"
+       width="176"
+       height="176"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood8" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix8" />
+      <feOffset
+         dy="12"
+         id="feOffset8" />
+      <feGaussianBlur
+         stdDeviation="6"
+         id="feGaussianBlur8" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite8" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"
+         id="feColorMatrix9" />
+      <feBlend
+         mode="normal"
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_3_63"
+         id="feBlend9" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect1_dropShadow_3_63"
+         result="shape"
+         id="feBlend10" />
+    </filter>
+  </defs>
+  <rect
+     style="fill:#ff8080;fill-opacity:1;stroke:none;stroke-width:0.54058;paint-order:stroke fill markers"
+     id="rect6"
+     width="77.145142"
+     height="24.528168"
+     x="46.762543"
+     y="90.858948"
+     ry="12.264084" />
+</svg>
