@@ -19,7 +19,9 @@
 
 .appContainer div img {
     border-radius: 1em;
-    width: 256px;
-    height: 256px;
     scale: 0.75;
+    padding: 32px;
+    background-color: white;
+    height: 192px;
+    width: 192px;
 }
