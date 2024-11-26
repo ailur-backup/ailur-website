@@ -67,17 +67,12 @@
        rx="32"
        fill="#f8fcfc"
        id="rect5" />
-    <text
-       xml:space="preserve"
-       style="font-weight:800;font-size:136.36px;line-height:0;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:#54a9ce;fill-opacity:1;stroke:none;stroke-width:1.89388;paint-order:stroke fill markers"
-       x="248.06386"
-       y="293.29568"
-       id="text1"
-       transform="scale(1.1109672,0.90011655)"><tspan
-         id="tspan1"
-         x="248.06386"
-         y="293.29568"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Light';fill:#88aa00;fill-opacity:1;stroke:none;stroke-width:1.89388">F</tspan></text>
+    <path
+       d="m 264.40371,290.29611 v -98.525 h 58.552 v 8.1635 h -49.544 v 36.8765 h 45.46225 v 8.1635 h -45.46225 v 45.3215 z"
+       id="text3"
+       style="font-weight:300;font-size:140.75px;line-height:0;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk Light';fill:#88aa00;stroke-width:1.95486;paint-order:stroke fill markers"
+       transform="scale(1.0996065,0.90941625)"
+       aria-label="F" />
   </g>
   <defs
      id="defs17">

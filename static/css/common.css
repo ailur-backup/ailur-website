@@ -4,23 +4,12 @@
     font-style: normal;
 }
 
-:root {
-    --theme-color: #1c71d8;
-    --hover-theme-color: #4990e7;
-    --hover-unimportant-theme-color: #dbdbdb;
-    --background: #fff;
-    --text-color: #000;
-    --gradient: #F8FAFC;
-    --foreground-1: #EBEBEB;
-    --foreground-2: #DCDCDC;
-}
-
 h1, h2 {
     font-weight: 600;
 }
 
 .button {
-    background-color: var(--theme-color);
+    background-color: #1c71d8;
     color: white;
     padding: 0.75em 1.25em;
     border: none;
@@ -30,22 +19,22 @@ h1, h2 {
 
 .button:hover {
     text-decoration: none;
-    background-color: var(--hover-theme-color);
+    background-color: #4990e7;
     transition: all 0.3s ease 0s;
 }
 
 .unimportant {
-    background-color: var(--foreground-1);
+    background-color: #EBEBEB;
     color: #000;
     font-weight: 500;
 }
 
 .unimportant:hover {
-    background-color: var(--hover-unimportant-theme-color);
+    background-color: #dbdbdb;
 }
 
 .subtext {
-    color: var(--theme-color);
+    color: #1c71d8;
     margin-top: 30px;
     font-weight: 600;
     font-size: 17px;
@@ -60,20 +49,23 @@ body {
 }
 
 nav {
-    background-color: var(--background);
+    background-color: #fff;
     padding: 20px 30px 20px 30px;
 }
 
 nav .bar {
-    background: linear-gradient(135deg, var(--gradient) 0%,var(--foreground-2) 100%);
+    background: #F8FAFC;
+    background: -ms-linear-gradient(135deg, #F8FAFC 0%,#DCDCDC 100%);
+    background: linear-gradient(135deg, #F8FAFC 0%,#DCDCDC 100%);
     border-radius: 22px;
     display: flex;
     padding: 20px;
 }
 
 nav img {
-    max-height: 20px;
-    scale: 2;
+    max-height: 40px;
+    max-width: 40px;
+    margin: -10px -10px -10px -10px;
 }
 
 nav div .links {
@@ -88,7 +80,7 @@ nav div .links a {
 
 a {
     text-decoration: none;
-    color: var(--text-color);
+    color: #000;
 }
 
 a:hover {
@@ -101,7 +93,7 @@ a:hover {
 }
 
 .titleBlock {
-    background-color: var(--foreground-1);
+    background-color: #EBEBEB;
     margin: 0 30px 0 30px;
     padding: 25px 0 25px 25px;
     font-size: 18px;
@@ -124,7 +116,7 @@ a:hover {
 
 footer {
     text-align: left;
-    background-color: var(--background);
+    background-color: #fff;
     padding: 80px 50px 25px 50px;
     display: flex;
     flex-direction: column;
@@ -139,6 +131,7 @@ footer a {
 footer img {
     margin: 0 auto 10px 0;
     max-height: 100px;
+    max-width: 100px;
 }
 
 footer .title {
@@ -149,9 +142,19 @@ footer .title {
 
 footer .disclaimer {
     margin-top: 20px;
-    filter: invert(100%);
-    background-color: var(--background);
+    color: #fff;
+    background-color: #000;
     padding: 20px 20px 20px 20px;
     border-radius: 10px;
     text-align: center;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    nav div .links a, footer .title {
+        font-weight: lighter;
+    }
+
+    h1, h2, .subtext {
+        font-weight: bold;
+    }
 }

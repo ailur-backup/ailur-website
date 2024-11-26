@@ -9,7 +9,7 @@
 }
 
 .appContainer div {
-    background-color: var(--foreground-1);
+    background-color: #EBEBEB;
     margin: 20px;
     padding: 0 0 35px 0;
     text-align: center;
@@ -19,9 +19,9 @@
 
 .appContainer div img {
     border-radius: 1em;
-    scale: 0.75;
-    padding: 32px;
+    padding: 20px;
     background-color: white;
-    height: 192px;
-    width: 192px;
+    height: 152px;
+    width: 152px;
+    margin: 35px;
 }

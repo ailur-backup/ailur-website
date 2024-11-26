@@ -2,7 +2,6 @@
 
 .background {
     background-image: url("/static/img/skyscrapers.jpg");
-    filter: brightness(50%);
     height: 500px;
 }
 
@@ -14,8 +13,8 @@ body {
     text-align: center;
 }
 
-.blockContainer h2, .blockContainer p {
-    filter: invert(100%);
+.blockContainer h2, .blockContainer p, .blockContainer a {
+    color: #fff;
 }
 
 .blockContainer h2 {

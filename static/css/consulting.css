@@ -4,8 +4,8 @@ body {
     text-align: center;
 }
 
-.contact p, .contact img, .contact h2 {
-    filter: invert(100%);
+.contact p, .contact h2 {
+    color: #fff;
 }
 
 .contact .buttons {
@@ -13,11 +13,13 @@ body {
 }
 
 .contact img {
-    max-height: 48px;
+    height: 48px;
+    width: 48px;
+    margin: 0 auto;
 }
 
 .contact {
-    background-color: var(--theme-color);
+    background-color: #1c71d8;
     border-radius: 25px;
     margin: 0 15vw 0 15vw;
     padding: 50px;

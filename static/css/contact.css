@@ -18,7 +18,7 @@ body {
 }
 
 .blockContainer .contactMethods div {
-    background-color: var(--foreground-1);
+    background-color: #EBEBEB;
     width: 320px;
     padding: 20px;
 }
@@ -34,7 +34,7 @@ body {
 .blockContainer .peopleDiv {
     margin-top: 50px;
     padding-bottom: 50px;
-    background-color: var(--foreground-1);
+    background-color: #EBEBEB;
 }
 
 .blockContainer .peopleDiv .subtext {

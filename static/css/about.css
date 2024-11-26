@@ -5,7 +5,6 @@ body {
 }
 
 .background {
-    filter: brightness(50%);
     height: 600px;
 
     background-image: url("/static/img/background.png");
@@ -45,5 +44,5 @@ body {
 .philosophyDiv {
     padding: 50px;
     margin: 50px 15vw;
-    background-color: var(--foreground-1);
+    background-color: #EBEBEB;
 }

@@ -21,3 +21,18 @@ body {
     font-size: 50px;
     margin: 0;
 }
+
+.buyButton {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.ieOnly {
+    display: none;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    .ieOnly {
+        display: block;
+    }
+}

@@ -60,25 +60,16 @@
   <g
      filter="url(#filter0_d_3_63)"
      id="g5">
-    <rect
-       x="247"
-       y="144"
-       width="152"
-       height="152"
-       rx="32"
-       fill="#f8fcfc"
-       id="rect5" />
-    <text
-       xml:space="preserve"
-       style="font-weight:800;font-size:131.356px;line-height:0;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Ultra-Bold';text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:#54a9ce;fill-opacity:1;stroke:none;stroke-width:1.82438;paint-order:stroke fill markers"
-       x="258.92828"
-       y="282.5321"
-       id="text17"
-       transform="scale(1.0701962,0.93440811)"><tspan
-         id="tspan17"
-         x="258.92828"
-         y="282.5321"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-family:'JetBrains Mono';-inkscape-font-specification:'JetBrains Mono Light';fill:#d2a800;fill-opacity:1;stroke:none;stroke-width:1.82438">K</tspan></text>
+    <path
+       id="rect5"
+       style="fill:#f8fcfc"
+       d="m 279,144 h 88 c 17.728,0 32,14.272 32,32 v 88 c 0,17.728 -14.272,32 -32,32 h -88 c -17.728,0 -32,-14.272 -32,-32 v -88 c 0,-17.728 14.272,-32 32,-32 z" />
+    <path
+       d="m 290.45084,264.26282 v -89.6889 h 8.20013 v 40.48813 h 1.53752 l 41.51315,-40.48813 h 11.53143 l -46.38198,44.33194 47.9195,45.35696 h -11.65956 l -42.92254,-41.2569 h -1.53752 v 41.2569 z"
+       id="text1"
+       style="font-weight:300;font-size:128.127px;line-height:0;font-family:'Space Grotesk';-inkscape-font-specification:'Space Grotesk Light';fill:#d2a800;stroke-width:1.77955;paint-order:stroke fill markers"
+       transform="scale(1.0009955,0.99900551)"
+       aria-label="K" />
   </g>
   <defs
      id="defs17">
